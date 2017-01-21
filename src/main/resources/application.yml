@@ -10,3 +10,5 @@ spring:
           #We can out username and password if this is a private repo
           #username
           #password
+          search-paths:
+          - 'station*'

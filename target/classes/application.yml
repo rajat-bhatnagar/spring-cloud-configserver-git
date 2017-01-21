@@ -1,0 +1,12 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rajat-bhatnagar/spring-cloudconfig-wa-tolls
+          #We can out username and password if this is a private repo
+          #username
+          #password
